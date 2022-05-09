@@ -1,6 +1,6 @@
 {
     "recipes": {
-        "american-pancakes": "american-pancakes.json"
+        "american-pancakes": "american-pancakes.yaml"
     },
     "collections": {
         "Breakfast": {
