@@ -1,0 +1,13 @@
+{
+    "recipes": {
+        "american-pancakes": "american-pancakes.json"
+    },
+    "collections": {
+        "Breakfast": {
+            "recipes": [{
+                "key": "palacsinta",
+                "label": "Amerikai palacsinta"
+            }]
+        }
+    }
+}
