@@ -5,7 +5,7 @@
     "collections": {
         "Breakfast": {
             "recipes": [{
-                "key": "palacsinta",
+                "key": "american-pancakes",
                 "label": "Amerikai palacsinta"
             }]
         }
