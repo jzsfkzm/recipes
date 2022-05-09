@@ -1,60 +1,59 @@
-author: Jozsef Kozma
-recipe: Amerikai palacsinta
-spec: v1.0.0
-tags: édesség, reggeli, palacsinta, desszert
-servings: 4
+author: Nick Felker
+recipe: Sweet Crêpes
+spec: v0.1.0
+tags: sweet, crepe, pastry, dessert
+servings: 5
 prelude:
   description: |
-    Amerikai palacsinta nehezen induló szombat reggelekre.
+    Crêpes are traditionally served on Candlemas, February 2nd. It became known
+    as 'avec Crêpe Day'.
 steps:
-  - description: A tojást a cukorral és a sóval habosra keverjük.
+  - description: Mix the flour and salt together in a large mixing bowl.
     ingredients:
-      - item: Tojás
-        amount: 2
-      - item: Cukor
+      - item: Flour
+        amount: 0.75
+        unit: cup
+      - item: Salt
         amount: 1
-        unit: teáskanál
-      - item: Só
-        amount: 1
-        unit: csipet
+        unit: teaspoon
     equipment:
-      - item: tál
-      - item: habverő
+      - item: Mixing bowl
+      - item: Whisk
     prepTime:
       amount: 1
       unit: minute
-  - description: Folyamatos keverés mellett hozzáadjuk az olvasztott vajat, majd a tej felét és a sütőporral összekevert lisztet, és simára keverjük.
+  - description: Whisk in the milk and eggs
     ingredients:
-      - item: vaj
+      - item: Milk
         amount: 1
         unit: cup
-      - item: tej
-        amount: 1.5
-        unit: dl
-      - item: sütőpor
-        amount: 1
-        unit: csomag
-      - item: liszt
-        amount: 225
-        unit: gramm
+      - item: Eggs
+        amount: 2
     prepTime:
       amount: 1
       unit: minute
-  - description: Végén a maradék tejjel higítjuk a tésztát.
+  - description: Whisk in the sugar, melted butter, and vanilla
     ingredients:
-      - item: tej
-        amount: 1.5
-        unit: dl
+      - item: Sugar
+        amount: 2
+        unit: tablespoon
+      - item: Melted butter
+        amount: 1
+        unit: tablespoon
+      - item: Vanilla extract
+        amount: 0.5
+        unit: teaspoon
     prepTime:
       amount: 1
       unit: minute
-  - description: A bekavart tésztát legalább fél órát pihentetjük.
+  - description: Sit in the refrigerator for an hour
     prepTime:
-      amount: 30
-      unit: minute
-  - description: Sütéskor palacsintasütőt hevítünk, és száraz serpenyőben kisütjük. A tésztát akkor kell megfordítani, amikor már majdnem az egész tészta buborékos a serpenyőben.
+      amount: 1
+      unit: hour
+  - description: Pour into pan and cook on medium-high heat. Cook until lightly brown, flip.
     equipment:
       - item: Pan
     cookTime:
       amount: 5
       unit: minute
+  - description: Optionally serve with toppings
