@@ -1,12 +1,19 @@
 {
     "recipes": {
-        "american-pancakes": "american-pancakes.yaml"
+        "american-pancakes": "american-pancakes.yaml",
+        "cheesecake": "cheesecake.json"
     },
     "collections": {
         "Breakfast": {
             "recipes": [{
                 "key": "american-pancakes",
                 "label": "Amerikai palacsinta"
+            }]
+        },
+        "Desszert": {
+            "recipes": [{
+                "key": "cheesecake",
+                "label": "Sajttorta"
             }]
         }
     }
