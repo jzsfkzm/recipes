@@ -15,7 +15,7 @@ steps:
         unit: cup
       - item: Salt
         amount: 1
-        unit: teaspoon
+        unit: pinch
     equipment:
       - item: Mixing bowl
       - item: Whisk
