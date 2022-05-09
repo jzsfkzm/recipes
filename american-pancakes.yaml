@@ -51,7 +51,7 @@ steps:
   - description: A bekavart tésztát legalább fél órát pihentetjük.
     prepTime:
       amount: 30
-      unit: minutes
+      unit: minute
   - description: Sütéskor palacsintasütőt hevítünk, és száraz serpenyőben kisütjük. A tésztát akkor kell megfordítani, amikor már majdnem az egész tészta buborékos a serpenyőben.
     equipment:
       - item: Pan
